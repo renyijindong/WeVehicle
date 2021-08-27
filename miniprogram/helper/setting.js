@@ -1,7 +1,7 @@
  module.exports = {
  	CLOUD_ID: 'xxx', // 云环境ID 
 
- 	CHECK_CONTENT: true, //图片文字是否校验 
+ 	CHECK_CONTENT: false, //图片文字是否校验 
 
 
  	TEST_MODE: false,
