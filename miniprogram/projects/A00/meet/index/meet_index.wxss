@@ -1,0 +1,36 @@
+@import "../../../../style/project/base/appt.wxss";
+@import "../../skin/skin.wxss"; 
+@import "../../../../style/project/meet_index_base.wxss";
+ 
+
+page {
+	background-color: #ffe9e1;
+}
+ 
+ 
+.meet-list-box .item-bigtext .right .bigtext-title {
+	opacity: .9;
+}
+
+.meet-list-box .item {
+	margin-bottom: 40rpx;
+}
+
+.meet-list-box .item.item-bigtext:nth-child(odd) {
+	background: #333;
+	color: #fff;
+}
+
+.meet-list-box .item.item-bigtext:nth-child(even) {
+	background: #444;
+	color: #fff;
+}
+
+.meet-list-box .item.item-bigtext .right .data-desc {
+	opacity: .6;
+}
+
+.meet-list-box .item-bigtext .data-status {
+	color: var(--projectCompareColor);
+	opacity: 1;
+}
