@@ -1,0 +1,93 @@
+{
+	"pages": [
+		"projects/vehicle/pages/default/index/default_index",
+		"projects/vehicle/pages/news/index/news_index",
+		"projects/vehicle/pages/about/index/about_index",
+		"projects/vehicle/pages/search/search",
+		"projects/vehicle/pages/my/index/my_index",
+		"projects/vehicle/pages/my/reg/my_reg",
+		"projects/vehicle/pages/my/edit/my_edit",
+		"projects/vehicle/pages/my/foot/my_foot",
+		"projects/vehicle/pages/my/fav/my_fav",
+		"projects/vehicle/pages/news/detail/news_detail",
+		"projects/vehicle/pages/admin/news/list/admin_news_list",
+		"projects/vehicle/pages/admin/news/add/admin_news_add",
+		"projects/vehicle/pages/admin/news/edit/admin_news_edit",
+		"projects/vehicle/pages/admin/setup/about/admin_setup_about",
+		"projects/vehicle/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/vehicle/pages/admin/setup/qr/admin_setup_qr",
+		"projects/vehicle/pages/admin/index/home/admin_home",
+		"projects/vehicle/pages/admin/index/login/admin_login",
+		"projects/vehicle/pages/admin/content/admin_content",
+		"projects/vehicle/pages/admin/mgr/log/admin_log_list",
+		"projects/vehicle/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/vehicle/pages/admin/mgr/list/admin_mgr_list",
+		"projects/vehicle/pages/admin/mgr/add/admin_mgr_add",
+		"projects/vehicle/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/vehicle/pages/admin/user/list/admin_user_list",
+		"projects/vehicle/pages/admin/user/detail/admin_user_detail",
+		"projects/vehicle/pages/admin/user/export/admin_user_export",
+		"projects/vehicle/pages/task/add/task_add",
+		"projects/vehicle/pages/task/my_list/task_my_list",
+		"projects/vehicle/pages/task/edit/task_edit",
+		"projects/vehicle/pages/admin/task/list/admin_task_list",
+		"projects/vehicle/pages/admin/task/detail/admin_task_detail",
+		"projects/vehicle/pages/admin/task/export/admin_task_export",
+		"projects/vehicle/pages/admin/task/edit/admin_task_edit",
+		"projects/vehicle/pages/admin/task/add/admin_task_add",
+		"projects/vehicle/pages/admin/task/scan/admin_task_scan",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#39826B",
+		"navigationBarTitleText": "车辆出入申请小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#39826B",
+		"list": [
+			{
+				"pagePath": "projects/vehicle/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/vehicle/images/tabbar/home.png",
+				"selectedIconPath": "/projects/vehicle/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/vehicle/pages/news/index/news_index",
+				"text": "公告",
+				"iconPath": "/projects/vehicle/images/tabbar/news.png",
+				"selectedIconPath": "/projects/vehicle/images/tabbar/news_cur.png"
+			},
+			{
+				"pagePath": "projects/vehicle/pages/task/add/task_add",
+				"text": "我要申请",
+				"iconPath": "/projects/vehicle/images/tabbar/add.png",
+				"selectedIconPath": "/projects/vehicle/images/tabbar/add_cur.png"
+			}, 
+			{
+				"pagePath": "projects/vehicle/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/vehicle/images/tabbar/my.png",
+				"selectedIconPath": "/projects/vehicle/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
